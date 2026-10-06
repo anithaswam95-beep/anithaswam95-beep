@@ -261,7 +261,7 @@ jobs:
 
 ## Flagship Projects
 
-### 1. Lessons
+### 1. [Lessons](https://github.com/anithaswam95-beep/Lessons)
 **Selenium Framework Architecture & Best Practices**
 
 - Complete Selenium framework with Page Object Model design pattern
@@ -270,7 +270,7 @@ jobs:
 - Reusable utilities and base classes
 - Professional-grade automation framework design
 
-### 2. SeleniumMavenProject
+### 2. [SeleniumMavenProject](https://github.com/anithaswam95-beep/SeleniumMavenProject)
 **Java-Based UI Automation with Data-Driven Testing**
 
 - 15+ test scenarios across real public websites
@@ -279,7 +279,7 @@ jobs:
 - Cross-browser testing support
 - Maven build automation
 
-### 3. RestAssuredgithubactions
+### 3. [RestAssuredgithubactions](https://github.com/anithaswam95-beep/RestAssuredgithubactions)
 **API Automation with GitHub Actions CI/CD**
 
 - REST API test automation using Rest Assured
@@ -288,7 +288,7 @@ jobs:
 - Maven-based build execution
 - Test reporting and artifact upload
 
-### 4. playwright-vscode-course
+### 4. [playwright-vscode-course](https://github.com/anithaswam95-beep/playwright-vscode-course)
 **Modern Web Automation with Playwright & TypeScript**
 
 - 57+ test scenarios using Playwright
@@ -297,21 +297,13 @@ jobs:
 - API mocking and request interception
 - HTML reporting with GitHub Actions CI/CD
 
-### 5. MyfirstCucumberProject
+### 5. [MyfirstCucumberProject](https://github.com/anithaswam95-beep/MyfirstCucumberProject)
 **BDD Testing with Cucumber & Gherkin**
 
 - Feature file-based test design
 - Step definition implementations with Selenium
 - TestNG execution with Cucumber plugin
 - 16+ passing steps across multiple scenarios
-
-### 6. [employee-analytics-capstone](https://github.com/anithaswam95-beep/employee-analytics-capstone)
-**SQL Capstone on Employee Analytics & Department Performance (Databricks)**
-
-- 194-cell SQL notebook: basics to advanced + 46 exercises incl. DAX-to-SQL translations
-- Workforce & compensation analytics: headcount, avg salary, top earners, salary tiers + running totals
-- Window functions, CTEs (incl. recursive), PIVOT/UNPIVOT, JSON/VARIANT, Delta Lake time travel
-- Standalone `sql/key_queries.sql` highlights + `setup_sample_data.sql` to rerun anywhere
 
 ---
 
@@ -370,7 +362,6 @@ Senior QA Automation Engineer with 6+ years of proven expertise in building scal
 - [RestAssuredgithubactions](https://github.com/anithaswam95-beep/RestAssuredgithubactions) — API + CI/CD
 - [playwright-vscode-course](https://github.com/anithaswam95-beep/playwright-vscode-course) — Modern Automation
 - [MyfirstCucumberProject](https://github.com/anithaswam95-beep/MyfirstCucumberProject) — BDD Testing
-- [employee-analytics-capstone](https://github.com/anithaswam95-beep/employee-analytics-capstone) — SQL Capstone: Employee Analytics
 
 ---
 
