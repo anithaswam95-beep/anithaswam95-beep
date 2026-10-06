@@ -148,6 +148,117 @@ Results-driven QA professional with proven expertise in building scalable automa
 
 ---
 
+## CI/CD Workflows
+
+### 1. Rest Assured GitHub Actions Workflow
+Repository: [RestAssuredgithubactions](https://github.com/anithaswam95-beep/RestAssuredgithubactions)
+
+This workflow validates REST API automation using Java + Maven + Rest Assured.
+
+```yaml
+name: Rest Assured Automation Tests
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: Check Java version
+        run: java -version
+
+      - name: Run Maven tests
+        run: mvn clean test -DtrimStackTrace=false
+
+      - name: Upload Surefire Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-report
+          path: |
+            target/reports/surefire.html
+            target/surefire-reports/
+          if-no-files-found: warn
+```
+
+### 2. Playwright GitHub Actions Workflow
+Repository: [playwright-vscode-course](https://github.com/anithaswam95-beep/playwright-vscode-course)
+
+This workflow runs browser automation tests in a CI pipeline using Playwright and Node.js.
+
+```yaml
+name: Playwright Tests
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: playwright-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: demo/package-lock.json
+
+      - name: Install dependencies
+        working-directory: demo
+        run: npm ci
+
+      - name: Install Playwright browsers
+        working-directory: demo
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Playwright tests
+        working-directory: demo
+        run: npx playwright test
+
+      - name: Upload Playwright HTML report
+        uses: actions/upload-artifact@v4
+        if: '!cancelled()'
+        with:
+          name: playwright-report
+          path: demo/playwright-report/
+          retention-days: 30
+          if-no-files-found: warn
+```
+
+---
+
 ## Flagship Projects
 
 ### 1. Lessons
