@@ -1,3 +1,13 @@
+# Anitha Swaminathan
+## Senior QA Analyst | QA Automation Engineer
+### Healthcare & Enterprise Applications
+### Selenium | Playwright | API Testing | SQL Validation | CI/CD
+
+📧 anithaswam95@gmail.com  
+📞 805-559-0536
+
+---
+
 # Senior QA Automation Engineer | Selenium | Playwright | Rest Assured | ETL Testing | Jenkins | GitHub Actions
 
 Welcome to my QA automation portfolio. I am a Senior QA Automation Engineer with 6+ years of hands-on experience in test automation, API testing, ETL validation, and CI/CD integration across healthcare and enterprise applications.
