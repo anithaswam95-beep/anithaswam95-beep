@@ -305,6 +305,14 @@ jobs:
 - TestNG execution with Cucumber plugin
 - 16+ passing steps across multiple scenarios
 
+### 6. [employee-analytics-capstone](https://github.com/anithaswam95-beep/employee-analytics-capstone)
+**SQL Capstone on Employee Analytics & Department Performance (Databricks)**
+
+- 194-cell SQL notebook: basics to advanced + 46 exercises incl. DAX-to-SQL translations
+- Workforce & compensation analytics: headcount, avg salary, top earners, salary tiers + running totals
+- Window functions, CTEs (incl. recursive), PIVOT/UNPIVOT, JSON/VARIANT, Delta Lake time travel
+- Standalone `sql/key_queries.sql` highlights + `setup_sample_data.sql` to rerun anywhere
+
 ---
 
 ## Supporting Projects
@@ -362,6 +370,7 @@ Senior QA Automation Engineer with 6+ years of proven expertise in building scal
 - [RestAssuredgithubactions](https://github.com/anithaswam95-beep/RestAssuredgithubactions) — API + CI/CD
 - [playwright-vscode-course](https://github.com/anithaswam95-beep/playwright-vscode-course) — Modern Automation
 - [MyfirstCucumberProject](https://github.com/anithaswam95-beep/MyfirstCucumberProject) — BDD Testing
+- [employee-analytics-capstone](https://github.com/anithaswam95-beep/employee-analytics-capstone) — SQL Capstone: Employee Analytics
 
 ---
 
